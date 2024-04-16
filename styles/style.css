@@ -1,34 +1,52 @@
 @font-face {
-    font-family: poppins;
-    font-style: normal;
-    font-weight: regular;
-    src: url(../assets/fonts/Poppins-Regular.ttf);
-  }
-
-:root{
-    --violet : #3b2a9f;
-    --orange : #fa8305;
-    --purpleGradient : #5141aa;
-    --box-bg : #1c1407;
-    --bright : #FFFFFF;
+  font-family: poppins;
+  font-style: normal;
+  font-weight: regular;
+  src: url(../assets/fonts/Poppins-Regular.ttf);
 }
 
-.bg-violet{
-    background-color: var(--violet);
+:root {
+  --violet: #3b2a9f;
+  --orange: #fa8305;
+  --purpleGradient: #5141aa;
+  --box-bg: #1c1407;
+  --bright: #ffffff;
 }
 
-.bg-orange{
-    background-color: var(--orange);
+.bg-violet {
+  background-color: var(--violet);
 }
 
-.bg-purpleGradient{
-    background-color: var(--purpleGradient);
+.bg-orange {
+  background-color: var(--orange);
 }
 
-.bg-box-bg{
-    background-color: var(--box-bg);
+.bg-purpleGradient {
+  background-color: var(--purpleGradient);
 }
 
-.txt-bright{
-    color : var(--bright);
+.bg-box-bg {
+  background-color: var(--box-bg);
 }
+
+.txt-bright {
+  color: var(--bright);
+}
+
+.major {
+  width: 80vw;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pro-img {
+  width: 60%;
+  height: 60%;
+}
+
+.proved-by > b {
+  font-weight: bold;
+  color: #fa8305;
+}
+
