@@ -1,0 +1,97 @@
+@font-face {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: regular;
+  src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+:root {
+  --violet: #3b2a9f;
+  --orange: #fa8305;
+  --purpleGradient: #5141aa;
+  --box-bg: #1c1407;
+  --bright: #ffffff;
+  --gray: #898989;
+  --headpurple: #b000dc1c;
+  --headbrown: #dc42001c;
+  --headgreen: #00dc8d1c; 
+}
+
+.bg-violet {
+  background-color: var(--violet);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.bg-purpleGradient {
+  background-color: var(--purpleGradient);
+}
+
+.bg-box-bg {
+  background-color: var(--box-bg);
+}
+
+.bg-headpurple{
+    background-color: var(--headpurple);
+}
+
+.bg-headbrown{
+    background-color: var(--headbrown);
+}
+
+.bg-headgreen{
+    background-color: var(--headgreen);
+}
+
+.txt-bright {
+  color: var(--bright);
+}
+
+.txt-gray {
+  color: var(--gray);
+}
+
+.txt-orange {
+  color: var(--orange);
+}
+
+.major {
+  width: 80vw;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.in-touch > p {
+  display: inline-block;
+}
+
+.in-touch {
+  width: 28%;
+  background-color: #fa8305;
+  padding: 10px 20px;
+  border-radius: 35px;
+}
+
+.game-promotion-img {
+  width: 45%;
+  border-radius: 20px;
+}
+
+.work-card {
+    background-color: #1c140f;
+    width: 30%;
+    height: 348px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .work-card:hover {
+    scale: 105%;
+    transition-duration: 200ms;
+  }
