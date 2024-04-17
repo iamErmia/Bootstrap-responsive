@@ -11,6 +11,7 @@
   --purpleGradient: #5141aa;
   --box-bg: #1c1407;
   --bright: #ffffff;
+  --gray: #898989;
 }
 
 .bg-violet {
@@ -31,6 +32,10 @@
 
 .txt-bright {
   color: var(--bright);
+}
+
+.txt-gray{
+  color: var(--gray);
 }
 
 .major {
