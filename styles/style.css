@@ -50,3 +50,53 @@
   color: #fa8305;
 }
 
+.card-box {
+  width: 251px;
+  height: 277px;
+  border-radius: 15px;
+}
+
+.t-card:hover {
+  scale: 105%;
+  transition-duration: 150ms;
+}
+
+.card-box-img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.t-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.dummy-stuff {
+  width: 50%;
+  line-height: 220%;
+  margin-bottom: 40px;
+}
+
+.dummy-img-dot {
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+
+.dummy-box {
+  width: 100%;
+  height: 462px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dummy-img {
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+}
+
+.dummy-dots {
+  position: absolute;
+}

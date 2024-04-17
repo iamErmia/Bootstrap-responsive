@@ -93,19 +93,19 @@
 
               <!--ref to Games HTML Page-->
               <p>
-                <a href="Game.html" class="bg-orange text-white text-decoration-none rounded-1">Get more details</a>
+                <a href="Game.html" class="bg-orange text-white text-decoration-none rounded-3 p-2 px-3">Get more details</a>
               </p>
             </div>
             <img src="./assets/images/Logos.png" alt="logos" class="pro-img" />
           </div>
 
           <div class="trends">
-            <div class="title-and-all">
-              <h2 class="trend-title">Currently Trending Games</h2>
-              <p class="see-all">see all</p>
+            <div class="d-flex justify-content-between align-items-center mb-5"><!--title-and-all-->
+              <h2 class="trend-title">Currently Trending Games</h2><!--trend titl-->
+              <p class="bg-purpleGradient py-2 px-3 rounded-3">see all</p><!-- see-all -->
             </div>
 
-            <div class="trend-cards">
+            <div class="d-flex justify-content-between"><!--trend-cards-->
               <div class="t-card">
                 <div class="card-box">
                   <img
@@ -114,7 +114,7 @@
                     alt=""
                   />
                 </div>
-                <div class="follow">
+                <div class="d-flex justify-content-center align-items-center fw-bold gap-2"><!--follow-->
                   <img src="./assets/images/flame.png" alt="flame" />
                   <p class="40-followers">40 Followers</p>
                 </div>
@@ -128,7 +128,7 @@
                     alt=""
                   />
                 </div>
-                <div class="follow">
+                <div class="d-flex justify-content-center align-items-center fw-bold gap-2">
                   <img src="./assets/images/flame.png" alt="flame" />
                   <p class="40-followers">40 Followers</p>
                 </div>
@@ -142,7 +142,7 @@
                     alt=""
                   />
                 </div>
-                <div class="follow">
+                <div class="d-flex justify-content-center align-items-center fw-bold gap-2">
                   <img src="./assets/images/flame.png" alt="flame" />
                   <p class="40-followers">40 Followers</p>
                 </div>
@@ -156,7 +156,7 @@
                     alt=""
                   />
                 </div>
-                <div class="follow">
+                <div class="d-flex justify-content-center align-items-center fw-bold gap-2">
                   <img src="./assets/images/flame.png" alt="flame" />
                   <p class="40-followers">40 Followers</p>
                 </div>
@@ -164,13 +164,13 @@
             </div>
           </div>
 
-          <div class="dummy_text">
-            <p class="dummy">
+          <div class="position-relative mb-5"><!--dummy_text-->
+            <p class="text-center fs-2 fw-bold lh-1"><!--dummy-->
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Aspernatur quasi excepturi saepe.
             </p>
             <div class="dummy-description">
-              <h4 class="dummy-title">Lorem Ipsum</h4>
+              <h4 class="fw-bold fs-2 mb-3">Lorem Ipsum</h4><!--dummy-title-->
               <p class="dummy-stuff">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
                 neque, perferendis saepe dicta itaque fugit temporibus
@@ -191,64 +191,56 @@
           </div>
 
           <div class="recent_projects">
-            <div class="recent-text">
-              <h3 class="recent-title">Our Recent Projects</h3>
+            <div class="text-center mx-auto w-50"><!--recent-text-->
+              <h3 class="fw-bold fs-2 mb-2">Our Recent Projects</h3><!--recent-title-->
               <p class="recent-description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Doloremque perspiciatis nihil hic dolorum inventore fugiat
               </p>
             </div>
 
-            <div class="recent-imgs">
-              <div class="first-row">
-                <div class="recent1">
-                  <img
-                    class="recent1 recent1-img"
-                    src="./assets/images/Proj-1.jpg"
-                    alt="recent projects image"
-                  />
+            <div class="my-3">
+              <div class="row container-lg d-flex justify-content-center align-items-center mx-auto">
+                <div class="row container-lg d-none d-sm-none d-md-none d-lg-flex justify-content-center align-content-center">
+                  <div class="row container-lg m-2">
+                    <img class="col-4 rounded-5" width="380" height="220" src="./assets/images/Proj-1.jpg" alt="recent projects image"/>
+                    <img class="col-4 rounded-5" width="380" height="220" src="./assets/images/Proj-2.jpg" alt="recent projects image"/>
+                    <img class="col-4 rounded-5" width="380" height="220" src="./assets/images/Proj-3.jpg" alt="recent projects image"/>
+                  </div>
+                  <div class="row container-lg m-2">
+                    <img class="col-3 rounded-5" width="380" height="220" src="./assets/images/Proj-4.jpg" alt="recent projects image"> 
+                    <img class="col-4 rounded-5" width="380" height="220" src="./assets/images/Proj-5.jpg" alt="recent projects image"> 
+                    <img class="col-5 rounded-5" width="380" height="220" src="./assets/images/Proj-6.jpg" alt="recent projects image"> 
+                  </div>
                 </div>
-                <div class="recent2">
-                  <img
-                    class="recent2 recent2-img"
-                    src="./assets/images/Proj-2.jpg"
-                    alt="recent projects image"
-                  />
-                </div>
-                <div class="recent3">
-                  <img
-                    class="recent3 recent3-img"
-                    src="./assets/images/Proj-3.jpg"
-                    alt="recent projects image"
-                  />
+
+                <div class="row container-lg d-none d-sm-none d-md-flex d-lg-none justify-content-center align-content-center mx-auto">
+                  <div class="row container-lg m-2">
+                    <img class="col-5 rounded-5" width="380" height="220" src="./assets/images/Proj-1.jpg" alt="recent projects image">
+                    <img class="col-7 rounded-5" width="380" height="220" src="./assets/images/Proj-2.jpg" alt="recent projects image">
+                  </div>
+                  <div class="row container-lg m-2">
+                    <img class="col-6 rounded-5" width="240" height="220" src="./assets/images/Proj-3.jpg" alt="recent projects image">
+                    <img class="col-6 rounded-5" width="240" height="220" src="./assets/images/Proj-4.jpg" alt="recent projects image">
+                  </div>
+                  <div class="row container-lg m-2">
+                    <img class="col-5  rounded-5" width="380" height="220" src="./assets/images/Proj-5.jpg" alt="recent projects image">
+                    <img class="col-7 rounded-5" width="240" height="220" src="./assets/images/Proj-6.jpg" alt="recent projects image">
+                  </div>
                 </div>
               </div>
-              <div class="second-row">
-                <div class="recent4">
-                  <img
-                    class="recent4 recent4-img"
-                    src="./assets/images/Proj-4.jpg"
-                    alt="recent projects image"
-                  />
-                </div>
-                <div class="recent5">
-                  <img
-                    class="recent5 recent5-img"
-                    src="./assets/images/Proj-5.jpg"
-                    alt="recent projects image"
-                  />
-                </div>
-                <div class="recent6">
-                  <img
-                    class="recent6 recent6-img"
-                    src="./assets/images/Proj-6.jpg"
-                    alt="recent projects image"
-                  />
-                </div>
+              
+              <div class="row container-lg d-flex d-sm-flex d-md-none d-lg-none justify-content-center align-content-center">
+                <img class="col-11 rounded-5 my-2" width="380" height="220" src="./assets/images/Proj-1.jpg" alt="recent projects image">
+                <img class="col-11 rounded-5 my-2" width="380" height="220" src="./assets/images/Proj-2.jpg" alt="recent projects image">
+                <img class="col-11 rounded-5 my-2" width="380" height="220" src="./assets/images/Proj-3.jpg" alt="recent projects image">
+                <img class="col-11 rounded-5 my-2" width="380" height="220" src="./assets/images/Proj-4.jpg" alt="recent projects image">
+                <img class="col-11 rounded-5 my-2" width="380" height="220" src="./assets/images/Proj-5.jpg" alt="recent projects image">
+                <img class="col-11 rounded-5 my-2" width="380" height="220" src="./assets/images/Proj-6.jpg" alt="recent projects image">
               </div>
             </div>
 
-            <p class="see-all-recent">see all</p>
+            <p class="text-center bg-purpleGradient rounded-3 py-2 px-3 mx-auto w-25">see all</p><!--see-all-recent-->
           </div>
 
           <div class="subscribe">
