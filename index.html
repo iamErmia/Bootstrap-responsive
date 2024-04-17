@@ -31,7 +31,7 @@
           <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item fs-5">
-                <a class="nav-link text-white">Home</a>
+                <a class="nav-link text-white" style="border-bottom: 4px solid #fa8305">Home</a>
               </li>
               <li class="nav-item fs-5">
                 <a class="nav-link text-white">Games</a>
@@ -42,7 +42,7 @@
               <li class="nav-item fs-5">
                 <a class="nav-link text-white">News</a>
               </li>
-              <li class="nav-item bg-orange fs-5 fw-bold rounded-3">
+              <li class="nav-item bg-orange fs-5 rounded-4">
                 <a class="nav-link text-white">Page Theme</a>
               </li>
             </ul>
@@ -63,7 +63,7 @@
               />
             </div>
             <div>
-              <h6><a href="Game.html" class="game-button">Games</a></h6>
+              <h6><a href="games.html" class="game-button">Games</a></h6>
             </div>
             <div>
               <h6>About Us</h6>
@@ -79,9 +79,9 @@
       </div>-->
       <div class="major">
         <div class="d-flex flex-column justify-content-center">
-          <div class="d-flex justify-content-center align-content-center mb-1">
+          <div class="d-flex justify-content-center flex-column-reverse flex-md-column-reverse flex-lg-row align-items-center my-4 container-lg">
             <!--promotion-->
-            <div class="d-flex flex-column gap-3">
+            <div class="col-10 col-sm-10 col-md-10 col-lg-5 text-white text-sm-center text-lg-start text-md-center">
               <!--description-->
               <p class="proved-by">Proved by <b>Ermia Zavari</b></p>
               <h1>Work that we produce for our clients</h1>
@@ -93,20 +93,23 @@
 
               <!--ref to Games HTML Page-->
               <p>
-                <a href="Game.html" class="bg-orange text-white text-decoration-none rounded-3 p-2 px-3">Get more details</a>
+                <a href="games.html" class="bg-orange text-white text-decoration-none rounded-3 p-2 px-3">Get more details</a>
               </p>
             </div>
-            <img src="./assets/images/Logos.png" alt="logos" class="pro-img" />
+            <div class="position-relative d-flex justify-content-center">
+              <img src="./assets/images/Logos.png" alt="logos" class="pro-img" />
+            </div>
           </div>
 
           <div class="trends">
-            <div class="d-flex justify-content-between align-items-center mb-5"><!--title-and-all-->
+            <div class="d-flex justify-content-between align-items-center justify-content-lg-between justify-content-md-between justify-content-sm-center container-lg"><!--title-and-all-->
               <h2 class="trend-title">Currently Trending Games</h2><!--trend titl-->
               <p class="bg-purpleGradient py-2 px-3 rounded-3">see all</p><!-- see-all -->
             </div>
 
-            <div class="d-flex justify-content-between"><!--trend-cards-->
-              <div class="t-card">
+            <div class="d-flex justify-content-between align-items-center mt-4 row mx-auto container-lg pb-md-4">             
+              <!--trend-cards-->
+              <div class="d-flex flex-column justify-content-center t-card col-12 col-sm-12 col-md-6 col-lg-3 pb-md-4">
                 <div class="card-box">
                   <img
                     class="card-box card-box-img"
@@ -120,7 +123,7 @@
                 </div>
               </div>
 
-              <div class="t-card">
+              <div class="t-card t-card col-12 col-sm-12 col-md-6 col-lg-3 pb-md-4">
                 <div class="card-box">
                   <img
                     class="card-box card-box-img"
@@ -134,7 +137,7 @@
                 </div>
               </div>
 
-              <div class="t-card">
+              <div class="t-card t-card col-12 col-sm-12 col-md-6 col-lg-3 pb-md-4">
                 <div class="card-box">
                   <img
                     class="card-box card-box-img"
@@ -148,7 +151,7 @@
                 </div>
               </div>
 
-              <div class="t-card">
+              <div class="t-card t-card col-12 col-sm-12 col-md-6 col-lg-3 pb-md-4">
                 <div class="card-box">
                   <img
                     class="card-box card-box-img"
@@ -273,7 +276,7 @@
       <div class="bg-box-bg w-100"><!--footer-->
         <div class="d-flex justify-content-center mt-5 pt-3 text-white"><!--footer-details-->
           <div class="py-2 d-flex justify-content-center row mx-auto container-lg"><!--footer-text-->
-            <div class="w-25 fw-bold"><!--logo-->
+            <div class="d-flex flex-column justify-content-center col-12 col-lg-3 col-md-6 col-sm-8"><!--logo-->
               <p class="fw-bold fs-1 mb-2">Logo</p><!--logo-text-->
               <p class="fs-5 mb-4"><!--logo-desc-->
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -283,10 +286,10 @@
               <!--the logo goes here for the second time-->
             </div>
 
-            <div class="about_us">
-              <p class="about-header">About us</p>
+            <div class="col-12 col-lg-3 col-md-5 col-sm-4">
+              <p class="fw-bold fs-3">About us</p>
               <div class="about-links">
-                <ul class="about-list">
+                <ul class="list-unstyled">
                   <li>Zeux</li>
                   <li>Portfolio</li>
                   <li>Careers</li>
@@ -295,7 +298,7 @@
               </div>
             </div>
 
-            <div class="contact_us">
+            <div class="px- col-lg-3 col-md-12 col-sm-12">
               <p class="contact-head">Contact us</p>
               <p class="contact-desc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
@@ -312,7 +315,6 @@
           <!--Social-->
           <div class="social">
             <!--Facebook-->
-            <div class="facebook">
               <img
                 class="facebook-logo"
                 src="./assets/images/facebook-logo.png"
@@ -347,8 +349,11 @@
           </div>
         </div>
       </div>
-      <div class="license">
-        <p>Copyright ® 2022 <b>Ermia Zavari</b> All rights Rcerved</p>
+      <div style="border-top: 1px solid white;">
+        <div class="text-center bg-box-bg m-0 p-2">
+          <p>Copyright ® 2022 <b>Ermia Zavari</b> All rights Rcerved</p>
+        </div>
+        
       </div>
     </div>
     <script src="./styles/bootstrap/bootstrap/js/bootstrap.js"></script>
